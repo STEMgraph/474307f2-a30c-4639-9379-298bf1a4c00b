@@ -11,6 +11,30 @@
 # Using Git on Your Local Machine
 
 ## 1) Introduction
+Update the README<!---
+{
+  "id": "474307f2-a30c-4639-9379-298bf1a4c00b",
+  "depends_on": [],
+  "author": "Stephan Bökelmann",
+  "first_used": "2025-03-26",
+  "keywords": ["learning", "exercises", "education", "practice"]
+}
+--->
+
+# Using Git on Your Local Machine
+
+## 1) Introduction
+
+Git is a distributed version control system originally developed by Linus Torvalds to support the development of the Li>
+When working with software—especially in teams—it quickly becomes clear that keeping track of changes, coordinating con>
+But what *is* Git, really? While we often talk about Git in terms of versioning and collaboration, at its core, Git is >
+Learning the entirety of Git’s feature set can take years, and even seasoned developers continue to discover new uses a>
+A Git repository is essentially a hidden storage area—created by Git—inside your project directory. When you run `git i>
+In this guide, you will learn about:
+
+
+^G Help        ^O Write Out   ^W Where Is    ^K Cut         ^T Execute     ^C Location    M-U Undo       M-A Set Mark
+^X Exit        ^R Read File   ^\ Replace     ^U Paste       ^J Justify     ^/ Go To Li
 
 Git is a distributed version control system originally developed by Linus Torvalds to support the development of the Linux kernel. Since then, it has become one of the most widely used tools for managing source code in software projects of all sizes.
 
