@@ -10,8 +10,10 @@
 --->
 
 # Using Git on Your Local Machine
+# *Das Benutzen von Git auf deiner lokalen Maschine*
 
 ## 1) Introduction
+## 1) *Einführung*
 
 Git is a distributed version control system originally developed by Linus Torvalds to support the development of the Linux kernel. Since then, it has become one of the most widely used tools for managing source code in software projects of all sizes.
 
@@ -37,6 +39,33 @@ You’ll also gain experience with:
 - and discarding unwanted edits.
 
 By the end of this introduction, you’ll have a solid grasp of Git’s basic operations and how to use it confidently on your local machine.
+
+**Es folgt nun die deutsche Übersetzung der Einleitung:**
+
+Git ist ein verteiltes Versionskontrollsystem, das ursprünglich von Linus Torvalds zur Unterstützung der Entwicklung des Linux-Kernels entwickelt wurde. Seitdem hat es sich zu einem der am weitesten verbreiteten Werkzeuge zur Verwaltung von Quellcode in Softwareprojekten jeglicher Größe entwickelt.
+
+Wenn man mit Software arbeitet – insbesondere im Team – wird schnell klar, dass es nicht trivial ist, Änderungen nachzuverfolgen, Beiträge zu koordinieren und widersprüchliche Bearbeitungen zu vermeiden. Git wurde entwickelt, um genau diese Herausforderungen zu meistern. Es bietet Entwicklern eine zuverlässige Möglichkeit, den Verlauf eines Projekts zu verfolgen, sicher zu experimentieren und effektiv zusammenzuarbeiten.
+
+Aber was ist Git eigentlich? Während wir Git oft im Zusammenhang mit Versionierung und Zusammenarbeit betrachten, ist Git im Kern ein Werkzeug zur Verwaltung von Dateien innerhalb eines Verzeichnisses über die Zeit hinweg. Es speichert Momentaufnahmen deines Projekts und erlaubt dir, zwischen diesen hin und her zu wechseln, Änderungen zu vergleichen und zu entscheiden, was in die offizielle Version aufgenommen oder ausgeschlossen werden soll.
+
+Den gesamten Funktionsumfang von Git zu erlernen kann Jahre dauern – selbst erfahrene Entwickler entdecken immer wieder neue Einsatzmöglichkeiten und Workflows. Für den Anfang konzentrieren wir uns jedoch auf die Grundlagen der Arbeit mit einem lokalen Git-Repository.
+
+Ein Git-Repository ist im Wesentlichen ein versteckter Speicherbereich – von Git erstellt – innerhalb deines Projektverzeichnisses. Wenn du git init ausführst, erstellt Git einen .git-Ordner im Wurzelverzeichnis deines Projekts. Dieser Ordner enthält alle internen Daten, die Git benötigt, um deine Versionsgeschichte zu verwalten. Normalerweise arbeitest du jedoch nicht direkt mit diesem Ordner, sondern nutzt Git-Befehle, um deine Dateien und deren Historie zu steuern.
+
+In diesem Leitfaden lernst du:
+
+- das Arbeitsverzeichnis (in dem du Dateien bearbeitest),
+- den Staging-Bereich (in dem du Änderungen vorbereitest),
+- und Commits (Momentaufnahmen deines Projekts).
+
+Außerdem wirst du praktische Erfahrung sammeln mit:
+
+- dem Erstellen eines Repositories,
+- dem Nachverfolgen und Überprüfen von Änderungen,
+- der Navigation durch die Commit-Historie,
+- und dem Verwerfen unerwünschter Änderungen.
+
+Am Ende dieser Einführung wirst du ein solides Verständnis für die grundlegenden Funktionen von Git haben und sicher mit lokalen Repositories auf deinem Rechner arbeiten können.
 
 **Note:** Before getting started, make sure Git is installed on your system. Open your terminal and run:
 
