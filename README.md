@@ -2,7 +2,7 @@
 {
   "id": "474307f2-a30c-4639-9379-298bf1a4c00b",
   "teaches": "Using Git on Your Local Machine",
-  "depends_on": [],
+  "depends_on": ["2c7334b3-b07d-48d6-a562-79072d8e166e"],
   "author": "Stephan Bökelmann",
   "first_used": "2025-03-26",
   "keywords": ["learning", "exercises", "education", "practice"]
