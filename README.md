@@ -122,11 +122,10 @@ Once installed, you're ready to begin managing your projects with Git.
 5. Why is it useful to have a staging area separate from the working tree?
 6. How does providing a commit message inline with `-m` differ from using a text editor?
 7. What information does `git log --oneline` provide compared to `git log`?
-8. What does the detached HEAD state mean, and why is it important to return to the master branch after checking out an old commit?
-9. How does Git ensure the safety of your current changes when navigating through the history?
-10. How does `git restore` differ from `git checkout` when used to discard changes?
-11. Why is it important to review your changes carefully with `git status` before discarding them?
-12. What is the difference between restoring changes in the working tree and unstaging changes from the staging area?
+8. How does Git ensure the safety of your current changes when navigating through the history?
+9. How does `git restore` differ from `git checkout` when used to discard changes?
+10. Why is it important to review your changes carefully with `git status` before discarding them?
+11. What is the difference between restoring changes in the working tree and unstaging changes from the staging area?
 
 
 
